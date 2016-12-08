@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5417B5F5448E969DF62F3485 /* libPods-HGCashNoteUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3ED778D6107B8A11A5306A /* libPods-HGCashNoteUITests.a */; };
+		B3333337481787520CCA4122 /* libPods-HGCashNote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D49227491DF8A3A5C8887 /* libPods-HGCashNote.a */; };
+		B3940026D75D2722FE9BEDD6 /* libPods-HGCashNoteTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 946670C6C7ABA4016F6D7F57 /* libPods-HGCashNoteTests.a */; };
+		D2E5DCF71DF943820042FFBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DCF61DF943820042FFBE /* main.m */; };
+		D2E5DCFA1DF943820042FFBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DCF91DF943820042FFBE /* AppDelegate.m */; };
+		D2E5DCFD1DF943820042FFBE /* HGCashNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DCFB1DF943820042FFBE /* HGCashNote.xcdatamodeld */; };
+		D2E5DD001DF943820042FFBE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DCFF1DF943820042FFBE /* MasterViewController.m */; };
+		D2E5DD031DF943820042FFBE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DD021DF943820042FFBE /* DetailViewController.m */; };
+		D2E5DD061DF943820042FFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E5DD041DF943820042FFBE /* Main.storyboard */; };
+		D2E5DD081DF943820042FFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E5DD071DF943820042FFBE /* Assets.xcassets */; };
+		D2E5DD0B1DF943820042FFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E5DD091DF943820042FFBE /* LaunchScreen.storyboard */; };
+		D2E5DD161DF943820042FFBE /* HGCashNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DD151DF943820042FFBE /* HGCashNoteTests.m */; };
+		D2E5DD211DF943820042FFBE /* HGCashNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DD201DF943820042FFBE /* HGCashNoteUITests.m */; };
+		D2E5DD321DF943E10042FFBE /* Billing+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DD2F1DF943E10042FFBE /* Billing+CoreDataClass.m */; };
+		D2E5DD331DF943E10042FFBE /* Billing+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DD311DF943E10042FFBE /* Billing+CoreDataProperties.m */; };
+		D2E5DD371DF94C1B0042FFBE /* HGTopPopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DD361DF94C1B0042FFBE /* HGTopPopWindow.m */; };
+		D2E5DD3A1DF94CE80042FFBE /* HGPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DD391DF94CE80042FFBE /* HGPopupView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2E5DD121DF943820042FFBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2E5DCEA1DF943820042FFBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E5DCF11DF943820042FFBE;
+			remoteInfo = HGCashNote;
+		};
+		D2E5DD1D1DF943820042FFBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2E5DCEA1DF943820042FFBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E5DCF11DF943820042FFBE;
+			remoteInfo = HGCashNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06987931A983DDEAB6CBF8A8 /* Pods-HGCashNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNoteTests/Pods-HGCashNoteTests.release.xcconfig"; sourceTree = "<group>"; };
+		21F224F4003A5B0E0EEEC1C8 /* Pods-HGCashNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNote/Pods-HGCashNote.debug.xcconfig"; sourceTree = "<group>"; };
+		34D90B9ED1932740C4D92B5A /* Pods-HGCashNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNoteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNoteUITests/Pods-HGCashNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D9CD7359667D97E5049EEE0 /* Pods-HGCashNoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNoteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNoteUITests/Pods-HGCashNoteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		488C2FA8D23B47FAEC7644AA /* Pods-HGCashNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNoteTests/Pods-HGCashNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		946670C6C7ABA4016F6D7F57 /* libPods-HGCashNoteTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGCashNoteTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15D49227491DF8A3A5C8887 /* libPods-HGCashNote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGCashNote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3ED778D6107B8A11A5306A /* libPods-HGCashNoteUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGCashNoteUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F8DF51E4D7577C23997599 /* Pods-HGCashNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNote/Pods-HGCashNote.release.xcconfig"; sourceTree = "<group>"; };
+		D2E5DCF21DF943820042FFBE /* HGCashNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGCashNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E5DCF61DF943820042FFBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2E5DCF81DF943820042FFBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2E5DCF91DF943820042FFBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2E5DCFC1DF943820042FFBE /* HGCashNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HGCashNote.xcdatamodel; sourceTree = "<group>"; };
+		D2E5DCFE1DF943820042FFBE /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D2E5DCFF1DF943820042FFBE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D2E5DD011DF943820042FFBE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D2E5DD021DF943820042FFBE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D2E5DD051DF943820042FFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2E5DD071DF943820042FFBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2E5DD0A1DF943820042FFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2E5DD0C1DF943820042FFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E5DD111DF943820042FFBE /* HGCashNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGCashNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E5DD151DF943820042FFBE /* HGCashNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGCashNoteTests.m; sourceTree = "<group>"; };
+		D2E5DD171DF943820042FFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E5DD1C1DF943820042FFBE /* HGCashNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HGCashNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E5DD201DF943820042FFBE /* HGCashNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGCashNoteUITests.m; sourceTree = "<group>"; };
+		D2E5DD221DF943820042FFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E5DD2E1DF943E10042FFBE /* Billing+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Billing+CoreDataClass.h"; path = "../Billing+CoreDataClass.h"; sourceTree = "<group>"; };
+		D2E5DD2F1DF943E10042FFBE /* Billing+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Billing+CoreDataClass.m"; path = "../Billing+CoreDataClass.m"; sourceTree = "<group>"; };
+		D2E5DD301DF943E10042FFBE /* Billing+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Billing+CoreDataProperties.h"; path = "../Billing+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D2E5DD311DF943E10042FFBE /* Billing+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Billing+CoreDataProperties.m"; path = "../Billing+CoreDataProperties.m"; sourceTree = "<group>"; };
+		D2E5DD351DF94C1B0042FFBE /* HGTopPopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGTopPopWindow.h; sourceTree = "<group>"; };
+		D2E5DD361DF94C1B0042FFBE /* HGTopPopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGTopPopWindow.m; sourceTree = "<group>"; };
+		D2E5DD381DF94CE80042FFBE /* HGPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGPopupView.h; sourceTree = "<group>"; };
+		D2E5DD391DF94CE80042FFBE /* HGPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGPopupView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2E5DCEF1DF943820042FFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3333337481787520CCA4122 /* libPods-HGCashNote.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E5DD0E1DF943820042FFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3940026D75D2722FE9BEDD6 /* libPods-HGCashNoteTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E5DD191DF943820042FFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5417B5F5448E969DF62F3485 /* libPods-HGCashNoteUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433D941A8B996FA6B540F178 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21F224F4003A5B0E0EEEC1C8 /* Pods-HGCashNote.debug.xcconfig */,
+				C5F8DF51E4D7577C23997599 /* Pods-HGCashNote.release.xcconfig */,
+				488C2FA8D23B47FAEC7644AA /* Pods-HGCashNoteTests.debug.xcconfig */,
+				06987931A983DDEAB6CBF8A8 /* Pods-HGCashNoteTests.release.xcconfig */,
+				34D90B9ED1932740C4D92B5A /* Pods-HGCashNoteUITests.debug.xcconfig */,
+				3D9CD7359667D97E5049EEE0 /* Pods-HGCashNoteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A12974746DF1732863483143 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A15D49227491DF8A3A5C8887 /* libPods-HGCashNote.a */,
+				946670C6C7ABA4016F6D7F57 /* libPods-HGCashNoteTests.a */,
+				AC3ED778D6107B8A11A5306A /* libPods-HGCashNoteUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2E5DCE91DF943820042FFBE = {
+			isa = PBXGroup;
+			children = (
+				D2E5DCF41DF943820042FFBE /* HGCashNote */,
+				D2E5DD141DF943820042FFBE /* HGCashNoteTests */,
+				D2E5DD1F1DF943820042FFBE /* HGCashNoteUITests */,
+				D2E5DCF31DF943820042FFBE /* Products */,
+				433D941A8B996FA6B540F178 /* Pods */,
+				A12974746DF1732863483143 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D2E5DCF31DF943820042FFBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2E5DCF21DF943820042FFBE /* HGCashNote.app */,
+				D2E5DD111DF943820042FFBE /* HGCashNoteTests.xctest */,
+				D2E5DD1C1DF943820042FFBE /* HGCashNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2E5DCF41DF943820042FFBE /* HGCashNote */ = {
+			isa = PBXGroup;
+			children = (
+				D2E5DD3B1DF954490042FFBE /* compnents */,
+				D2E5DD341DF94BF90042FFBE /* util */,
+				D2E5DD2E1DF943E10042FFBE /* Billing+CoreDataClass.h */,
+				D2E5DD2F1DF943E10042FFBE /* Billing+CoreDataClass.m */,
+				D2E5DD301DF943E10042FFBE /* Billing+CoreDataProperties.h */,
+				D2E5DD311DF943E10042FFBE /* Billing+CoreDataProperties.m */,
+				D2E5DCF81DF943820042FFBE /* AppDelegate.h */,
+				D2E5DCF91DF943820042FFBE /* AppDelegate.m */,
+				D2E5DCFE1DF943820042FFBE /* MasterViewController.h */,
+				D2E5DCFF1DF943820042FFBE /* MasterViewController.m */,
+				D2E5DD011DF943820042FFBE /* DetailViewController.h */,
+				D2E5DD021DF943820042FFBE /* DetailViewController.m */,
+				D2E5DD041DF943820042FFBE /* Main.storyboard */,
+				D2E5DD071DF943820042FFBE /* Assets.xcassets */,
+				D2E5DD091DF943820042FFBE /* LaunchScreen.storyboard */,
+				D2E5DD0C1DF943820042FFBE /* Info.plist */,
+				D2E5DCFB1DF943820042FFBE /* HGCashNote.xcdatamodeld */,
+				D2E5DCF51DF943820042FFBE /* Supporting Files */,
+			);
+			path = HGCashNote;
+			sourceTree = "<group>";
+		};
+		D2E5DCF51DF943820042FFBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2E5DCF61DF943820042FFBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2E5DD141DF943820042FFBE /* HGCashNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2E5DD151DF943820042FFBE /* HGCashNoteTests.m */,
+				D2E5DD171DF943820042FFBE /* Info.plist */,
+			);
+			path = HGCashNoteTests;
+			sourceTree = "<group>";
+		};
+		D2E5DD1F1DF943820042FFBE /* HGCashNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2E5DD201DF943820042FFBE /* HGCashNoteUITests.m */,
+				D2E5DD221DF943820042FFBE /* Info.plist */,
+			);
+			path = HGCashNoteUITests;
+			sourceTree = "<group>";
+		};
+		D2E5DD341DF94BF90042FFBE /* util */ = {
+			isa = PBXGroup;
+			children = (
+				D2E5DD351DF94C1B0042FFBE /* HGTopPopWindow.h */,
+				D2E5DD361DF94C1B0042FFBE /* HGTopPopWindow.m */,
+				D2E5DD381DF94CE80042FFBE /* HGPopupView.h */,
+				D2E5DD391DF94CE80042FFBE /* HGPopupView.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		D2E5DD3B1DF954490042FFBE /* compnents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = compnents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2E5DCF11DF943820042FFBE /* HGCashNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E5DD251DF943820042FFBE /* Build configuration list for PBXNativeTarget "HGCashNote" */;
+			buildPhases = (
+				31756EE66990D9A82A674EFC /* [CP] Check Pods Manifest.lock */,
+				D2E5DCEE1DF943820042FFBE /* Sources */,
+				D2E5DCEF1DF943820042FFBE /* Frameworks */,
+				D2E5DCF01DF943820042FFBE /* Resources */,
+				B37F02734FDF21ED16989B29 /* [CP] Embed Pods Frameworks */,
+				A653DE779808E37C284266AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGCashNote;
+			productName = HGCashNote;
+			productReference = D2E5DCF21DF943820042FFBE /* HGCashNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2E5DD101DF943820042FFBE /* HGCashNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E5DD281DF943820042FFBE /* Build configuration list for PBXNativeTarget "HGCashNoteTests" */;
+			buildPhases = (
+				33989E0298E9E4E09CF02ED9 /* [CP] Check Pods Manifest.lock */,
+				D2E5DD0D1DF943820042FFBE /* Sources */,
+				D2E5DD0E1DF943820042FFBE /* Frameworks */,
+				D2E5DD0F1DF943820042FFBE /* Resources */,
+				BF9451B3A988F2C9BD4072ED /* [CP] Embed Pods Frameworks */,
+				7E4FC59D6D21F31096B70DF5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E5DD131DF943820042FFBE /* PBXTargetDependency */,
+			);
+			name = HGCashNoteTests;
+			productName = HGCashNoteTests;
+			productReference = D2E5DD111DF943820042FFBE /* HGCashNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2E5DD1B1DF943820042FFBE /* HGCashNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2E5DD2B1DF943820042FFBE /* Build configuration list for PBXNativeTarget "HGCashNoteUITests" */;
+			buildPhases = (
+				EBB79904EAA98ED049778E65 /* [CP] Check Pods Manifest.lock */,
+				D2E5DD181DF943820042FFBE /* Sources */,
+				D2E5DD191DF943820042FFBE /* Frameworks */,
+				D2E5DD1A1DF943820042FFBE /* Resources */,
+				A8AE1FE0B7D2247B6546DA2C /* [CP] Embed Pods Frameworks */,
+				64786AB6B7DEA3C7853247DD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E5DD1E1DF943820042FFBE /* PBXTargetDependency */,
+			);
+			name = HGCashNoteUITests;
+			productName = HGCashNoteUITests;
+			productReference = D2E5DD1C1DF943820042FFBE /* HGCashNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2E5DCEA1DF943820042FFBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = honghao5;
+				TargetAttributes = {
+					D2E5DCF11DF943820042FFBE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 24933CS868;
+						ProvisioningStyle = Automatic;
+					};
+					D2E5DD101DF943820042FFBE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2E5DCF11DF943820042FFBE;
+					};
+					D2E5DD1B1DF943820042FFBE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2E5DCF11DF943820042FFBE;
+					};
+				};
+			};
+			buildConfigurationList = D2E5DCED1DF943820042FFBE /* Build configuration list for PBXProject "HGCashNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2E5DCE91DF943820042FFBE;
+			productRefGroup = D2E5DCF31DF943820042FFBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2E5DCF11DF943820042FFBE /* HGCashNote */,
+				D2E5DD101DF943820042FFBE /* HGCashNoteTests */,
+				D2E5DD1B1DF943820042FFBE /* HGCashNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2E5DCF01DF943820042FFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E5DD0B1DF943820042FFBE /* LaunchScreen.storyboard in Resources */,
+				D2E5DD081DF943820042FFBE /* Assets.xcassets in Resources */,
+				D2E5DD061DF943820042FFBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E5DD0F1DF943820042FFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E5DD1A1DF943820042FFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31756EE66990D9A82A674EFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33989E0298E9E4E09CF02ED9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64786AB6B7DEA3C7853247DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNoteUITests/Pods-HGCashNoteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E4FC59D6D21F31096B70DF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNoteTests/Pods-HGCashNoteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A653DE779808E37C284266AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNote/Pods-HGCashNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8AE1FE0B7D2247B6546DA2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNoteUITests/Pods-HGCashNoteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B37F02734FDF21ED16989B29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNote/Pods-HGCashNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF9451B3A988F2C9BD4072ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNoteTests/Pods-HGCashNoteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB79904EAA98ED049778E65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2E5DCEE1DF943820042FFBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E5DD031DF943820042FFBE /* DetailViewController.m in Sources */,
+				D2E5DD001DF943820042FFBE /* MasterViewController.m in Sources */,
+				D2E5DD331DF943E10042FFBE /* Billing+CoreDataProperties.m in Sources */,
+				D2E5DCFA1DF943820042FFBE /* AppDelegate.m in Sources */,
+				D2E5DD3A1DF94CE80042FFBE /* HGPopupView.m in Sources */,
+				D2E5DD371DF94C1B0042FFBE /* HGTopPopWindow.m in Sources */,
+				D2E5DD321DF943E10042FFBE /* Billing+CoreDataClass.m in Sources */,
+				D2E5DCFD1DF943820042FFBE /* HGCashNote.xcdatamodeld in Sources */,
+				D2E5DCF71DF943820042FFBE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E5DD0D1DF943820042FFBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E5DD161DF943820042FFBE /* HGCashNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E5DD181DF943820042FFBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E5DD211DF943820042FFBE /* HGCashNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2E5DD131DF943820042FFBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2E5DCF11DF943820042FFBE /* HGCashNote */;
+			targetProxy = D2E5DD121DF943820042FFBE /* PBXContainerItemProxy */;
+		};
+		D2E5DD1E1DF943820042FFBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2E5DCF11DF943820042FFBE /* HGCashNote */;
+			targetProxy = D2E5DD1D1DF943820042FFBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2E5DD041DF943820042FFBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E5DD051DF943820042FFBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2E5DD091DF943820042FFBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2E5DD0A1DF943820042FFBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2E5DD231DF943820042FFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2E5DD241DF943820042FFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2E5DD261DF943820042FFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F224F4003A5B0E0EEEC1C8 /* Pods-HGCashNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24933CS868;
+				INFOPLIST_FILE = HGCashNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhh.HGCashNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2E5DD271DF943820042FFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F8DF51E4D7577C23997599 /* Pods-HGCashNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24933CS868;
+				INFOPLIST_FILE = HGCashNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhh.HGCashNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2E5DD291DF943820042FFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488C2FA8D23B47FAEC7644AA /* Pods-HGCashNoteTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HGCashNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhh.HGCashNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGCashNote.app/HGCashNote";
+			};
+			name = Debug;
+		};
+		D2E5DD2A1DF943820042FFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06987931A983DDEAB6CBF8A8 /* Pods-HGCashNoteTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HGCashNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhh.HGCashNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HGCashNote.app/HGCashNote";
+			};
+			name = Release;
+		};
+		D2E5DD2C1DF943820042FFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34D90B9ED1932740C4D92B5A /* Pods-HGCashNoteUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = HGCashNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhh.HGCashNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HGCashNote;
+			};
+			name = Debug;
+		};
+		D2E5DD2D1DF943820042FFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9CD7359667D97E5049EEE0 /* Pods-HGCashNoteUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = HGCashNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhh.HGCashNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HGCashNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2E5DCED1DF943820042FFBE /* Build configuration list for PBXProject "HGCashNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E5DD231DF943820042FFBE /* Debug */,
+				D2E5DD241DF943820042FFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E5DD251DF943820042FFBE /* Build configuration list for PBXNativeTarget "HGCashNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E5DD261DF943820042FFBE /* Debug */,
+				D2E5DD271DF943820042FFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E5DD281DF943820042FFBE /* Build configuration list for PBXNativeTarget "HGCashNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E5DD291DF943820042FFBE /* Debug */,
+				D2E5DD2A1DF943820042FFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2E5DD2B1DF943820042FFBE /* Build configuration list for PBXNativeTarget "HGCashNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2E5DD2C1DF943820042FFBE /* Debug */,
+				D2E5DD2D1DF943820042FFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2E5DCFB1DF943820042FFBE /* HGCashNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2E5DCFC1DF943820042FFBE /* HGCashNote.xcdatamodel */,
+			);
+			currentVersion = D2E5DCFC1DF943820042FFBE /* HGCashNote.xcdatamodel */;
+			path = HGCashNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2E5DCEA1DF943820042FFBE /* Project object */;
+}

@@ -1,0 +1,18 @@
+PODS:
+  - Masonry (1.0.2)
+  - MMPopupView (1.7.2):
+    - Masonry
+  - RKDropdownAlert (0.3.0)
+
+DEPENDENCIES:
+  - MMPopupView
+  - RKDropdownAlert (~> 0.3.0)
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MMPopupView: fe1dd010824029dfb632fdf1a531db5dd5386020
+  RKDropdownAlert: f4b3364c251829ad439dc666836a1f2dad26f4c7
+
+PODFILE CHECKSUM: bb91b511aa62bc3e429387e13b6b0c2147df25d6
+
+COCOAPODS: 1.1.1
