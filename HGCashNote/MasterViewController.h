@@ -11,16 +11,18 @@
 #import "HGCashNote+CoreDataModel.h"
 #import "Billing+CoreDataClass.h"
 #import "Billing+CoreDataProperties.h"
+#import "HGNotification.h"
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface MasterViewController : UITableViewController <NSFetchedResultsControllerDelegate, HGNotificationDelegate>
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
 @property (strong, nonatomic) NSFetchedResultsController<Billing *> *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
+- (void)insertNewBillingWithEvent:(NSString *)event pay:(double)pay;
 
 @end
 

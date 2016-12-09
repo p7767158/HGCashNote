@@ -18,4 +18,9 @@ int kShowTime = 3;
     [RKDropdownAlert title:title message:message time:seconds];
 }
 
++ (void)dismiss
+{
+    [RKDropdownAlert dismissAllAlert];
+}
+
 @end

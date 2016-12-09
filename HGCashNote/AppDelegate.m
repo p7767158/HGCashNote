@@ -10,6 +10,7 @@
 #import "DetailViewController.h"
 #import "MasterViewController.h"
 #import "HGTopPopWindow.h"
+#import "HGNotification.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -28,6 +29,11 @@
     UINavigationController *masterNavigationController = splitViewController.viewControllers[0];
     MasterViewController *controller = (MasterViewController *)masterNavigationController.topViewController;
     controller.managedObjectContext = self.persistentContainer.viewContext;
+    
+    [[HGNotification sharedHGNotification] requestAuth];
+    [[HGNotification sharedHGNotification] addNotification];
+    [HGNotification addDelegate:controller];
+    
     return YES;
 }
 
@@ -51,7 +57,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    
+    [HGTopPopWindow dismiss];
     [HGTopPopWindow title:@"嘿！浩哥" message:@"欢迎回来" time:kShowTime];
 }
 
@@ -61,7 +67,6 @@
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
 }
-
 
 #pragma mark - Split view
 

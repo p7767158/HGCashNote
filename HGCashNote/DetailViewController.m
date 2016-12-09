@@ -17,6 +17,7 @@
 - (void)configureView {
     // Update the user interface for the detail item.
     if (self.detailItem) {
+        
         NSString *timestamp = self.detailItem.timestamp.description.length > 20 ? [self.detailItem.timestamp.description substringToIndex:20] : self.detailItem.timestamp.description;
         self.detailDescriptionLabel.text = [NSString stringWithFormat:@"%@\n\n%@\n\n%@\n\n", self.detailItem.event, [NSString stringWithFormat:@"￥%.2f", self.detailItem.pay], timestamp];
         NSLog(@"%@", [NSString stringWithFormat:@"￥%.2f", self.detailItem.pay]);

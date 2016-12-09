@@ -27,6 +27,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *path = NSHomeDirectory();//主目录
+    NSLog(@"NSHomeDirectory:%@",path);
+    
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addEvent:)];
@@ -111,7 +115,16 @@
     Billing *newBilling = [[Billing alloc] initWithContext:context];
     newBilling.event = self.event;
     newBilling.pay = self.pay;
-    newBilling.timestamp = [NSDate date];
+    
+    NSDate *date = [NSDate date];
+    // 设置系统时区为本地时区
+    NSTimeZone *zone = [NSTimeZone systemTimeZone];
+    // 计算本地时区与 GMT 时区的时间差
+    NSInteger interval = [zone secondsFromGMT];
+    // 在 GMT 时间基础上追加时间差值，得到本地时间
+    date = [date dateByAddingTimeInterval:interval];
+    
+    newBilling.timestamp = date;
     
     NSError *error = nil;
     if (![context save:&error]) {
@@ -136,7 +149,6 @@
         abort(); //TODO HG:exit applicantion
     }
 }
-
 
 #pragma mark - Segues
 
@@ -323,14 +335,13 @@
     [self.tableView endUpdates];
 }
 
-/*
-// Implementing the above methods to update the table view in response to individual changes may have performance implications if a large number of changes are made simultaneously. If this proves to be an issue, you can instead just implement controllerDidChangeContent: which notifies the delegate that all section and object changes have been processed. 
- 
- - (void)controllerDidChangeContent:(NSFetchedResultsController *)controller
+#pragma mark - HGNotificationDelegate
+
+- (void)addBillingWithEvent:(NSString *)event pay:(double)pay
 {
-    // In the simplest, most efficient, case, reload the table view.
-    [self.tableView reloadData];
+    self.event = event;
+    self.pay = pay;
+    [self insertNewBilling];
 }
- */
 
 @end

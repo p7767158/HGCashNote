@@ -10,6 +10,7 @@
 		5417B5F5448E969DF62F3485 /* libPods-HGCashNoteUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3ED778D6107B8A11A5306A /* libPods-HGCashNoteUITests.a */; };
 		B3333337481787520CCA4122 /* libPods-HGCashNote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D49227491DF8A3A5C8887 /* libPods-HGCashNote.a */; };
 		B3940026D75D2722FE9BEDD6 /* libPods-HGCashNoteTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 946670C6C7ABA4016F6D7F57 /* libPods-HGCashNoteTests.a */; };
+		D231EBFB1DFA99CA00E594B1 /* HGNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = D231EBFA1DFA99CA00E594B1 /* HGNotification.m */; };
 		D2E5DCF71DF943820042FFBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DCF61DF943820042FFBE /* main.m */; };
 		D2E5DCFA1DF943820042FFBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DCF91DF943820042FFBE /* AppDelegate.m */; };
 		D2E5DCFD1DF943820042FFBE /* HGCashNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DCFB1DF943820042FFBE /* HGCashNote.xcdatamodeld */; };
@@ -53,6 +54,8 @@
 		A15D49227491DF8A3A5C8887 /* libPods-HGCashNote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGCashNote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3ED778D6107B8A11A5306A /* libPods-HGCashNoteUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGCashNoteUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F8DF51E4D7577C23997599 /* Pods-HGCashNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNote/Pods-HGCashNote.release.xcconfig"; sourceTree = "<group>"; };
+		D231EBF91DFA99CA00E594B1 /* HGNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGNotification.h; sourceTree = "<group>"; };
+		D231EBFA1DFA99CA00E594B1 /* HGNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGNotification.m; sourceTree = "<group>"; };
 		D2E5DCF21DF943820042FFBE /* HGCashNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGCashNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E5DCF61DF943820042FFBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2E5DCF81DF943820042FFBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 				D2E5DD361DF94C1B0042FFBE /* HGTopPopWindow.m */,
 				D2E5DD381DF94CE80042FFBE /* HGPopupView.h */,
 				D2E5DD391DF94CE80042FFBE /* HGPopupView.m */,
+				D231EBF91DFA99CA00E594B1 /* HGNotification.h */,
+				D231EBFA1DFA99CA00E594B1 /* HGNotification.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -506,6 +511,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2E5DD031DF943820042FFBE /* DetailViewController.m in Sources */,
+				D231EBFB1DFA99CA00E594B1 /* HGNotification.m in Sources */,
 				D2E5DD001DF943820042FFBE /* MasterViewController.m in Sources */,
 				D2E5DD331DF943E10042FFBE /* Billing+CoreDataProperties.m in Sources */,
 				D2E5DCFA1DF943820042FFBE /* AppDelegate.m in Sources */,

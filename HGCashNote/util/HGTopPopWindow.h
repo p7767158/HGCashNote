@@ -13,5 +13,6 @@ extern int kShowTime;
 @interface HGTopPopWindow : NSObject
 
 + (void)title:(NSString *)title message:(NSString *)message time:(NSInteger)seconds;
++ (void)dismiss;
 
 @end
