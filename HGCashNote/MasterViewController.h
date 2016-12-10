@@ -23,6 +23,7 @@
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 - (void)insertNewBillingWithEvent:(NSString *)event pay:(double)pay;
+- (IBAction)addEvent:(id)sender;
 
 @end
 

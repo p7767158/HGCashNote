@@ -11,6 +11,7 @@
 #import "MasterViewController.h"
 #import "HGTopPopWindow.h"
 #import "HGNotification.h"
+#import "HGForceTouch.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -33,6 +34,8 @@
     [[HGNotification sharedHGNotification] requestAuth];
     [[HGNotification sharedHGNotification] addNotification];
     [HGNotification addDelegate:controller];
+    
+    [HGForceTouch defaultSetUp];
     
     return YES;
 }
@@ -66,6 +69,16 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
+}
+
+- (void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler
+{
+    if ([shortcutItem.type isEqualToString:kForchTouchType]) {
+        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+        UINavigationController *navController = splitViewController.viewControllers.lastObject;
+        MasterViewController *masterVC = navController.viewControllers.firstObject;
+        [masterVC addEvent:nil];
+    }
 }
 
 #pragma mark - Split view

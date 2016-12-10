@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5417B5F5448E969DF62F3485 /* libPods-HGCashNoteUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3ED778D6107B8A11A5306A /* libPods-HGCashNoteUITests.a */; };
+		A45383511DFC046000550C16 /* HGForceTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = A45383501DFC046000550C16 /* HGForceTouch.m */; };
 		B3333337481787520CCA4122 /* libPods-HGCashNote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A15D49227491DF8A3A5C8887 /* libPods-HGCashNote.a */; };
-		B3940026D75D2722FE9BEDD6 /* libPods-HGCashNoteTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 946670C6C7ABA4016F6D7F57 /* libPods-HGCashNoteTests.a */; };
 		D231EBFB1DFA99CA00E594B1 /* HGNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = D231EBFA1DFA99CA00E594B1 /* HGNotification.m */; };
 		D2E5DCF71DF943820042FFBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DCF61DF943820042FFBE /* main.m */; };
 		D2E5DCFA1DF943820042FFBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E5DCF91DF943820042FFBE /* AppDelegate.m */; };
@@ -45,13 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06987931A983DDEAB6CBF8A8 /* Pods-HGCashNoteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNoteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNoteTests/Pods-HGCashNoteTests.release.xcconfig"; sourceTree = "<group>"; };
 		21F224F4003A5B0E0EEEC1C8 /* Pods-HGCashNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNote/Pods-HGCashNote.debug.xcconfig"; sourceTree = "<group>"; };
-		34D90B9ED1932740C4D92B5A /* Pods-HGCashNoteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNoteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNoteUITests/Pods-HGCashNoteUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D9CD7359667D97E5049EEE0 /* Pods-HGCashNoteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNoteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNoteUITests/Pods-HGCashNoteUITests.release.xcconfig"; sourceTree = "<group>"; };
-		488C2FA8D23B47FAEC7644AA /* Pods-HGCashNoteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNoteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNoteTests/Pods-HGCashNoteTests.debug.xcconfig"; sourceTree = "<group>"; };
 		946670C6C7ABA4016F6D7F57 /* libPods-HGCashNoteTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGCashNoteTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15D49227491DF8A3A5C8887 /* libPods-HGCashNote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGCashNote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A453834F1DFC046000550C16 /* HGForceTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGForceTouch.h; sourceTree = "<group>"; };
+		A45383501DFC046000550C16 /* HGForceTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGForceTouch.m; sourceTree = "<group>"; };
 		AC3ED778D6107B8A11A5306A /* libPods-HGCashNoteUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGCashNoteUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F8DF51E4D7577C23997599 /* Pods-HGCashNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCashNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGCashNote/Pods-HGCashNote.release.xcconfig"; sourceTree = "<group>"; };
 		D231EBF91DFA99CA00E594B1 /* HGNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGNotification.h; sourceTree = "<group>"; };
@@ -98,7 +95,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3940026D75D2722FE9BEDD6 /* libPods-HGCashNoteTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +102,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5417B5F5448E969DF62F3485 /* libPods-HGCashNoteUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,10 +113,6 @@
 			children = (
 				21F224F4003A5B0E0EEEC1C8 /* Pods-HGCashNote.debug.xcconfig */,
 				C5F8DF51E4D7577C23997599 /* Pods-HGCashNote.release.xcconfig */,
-				488C2FA8D23B47FAEC7644AA /* Pods-HGCashNoteTests.debug.xcconfig */,
-				06987931A983DDEAB6CBF8A8 /* Pods-HGCashNoteTests.release.xcconfig */,
-				34D90B9ED1932740C4D92B5A /* Pods-HGCashNoteUITests.debug.xcconfig */,
-				3D9CD7359667D97E5049EEE0 /* Pods-HGCashNoteUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -218,6 +209,8 @@
 				D2E5DD391DF94CE80042FFBE /* HGPopupView.m */,
 				D231EBF91DFA99CA00E594B1 /* HGNotification.h */,
 				D231EBFA1DFA99CA00E594B1 /* HGNotification.m */,
+				A453834F1DFC046000550C16 /* HGForceTouch.h */,
+				A45383501DFC046000550C16 /* HGForceTouch.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -236,12 +229,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2E5DD251DF943820042FFBE /* Build configuration list for PBXNativeTarget "HGCashNote" */;
 			buildPhases = (
+				9DD4A8F1959E2A3D35161A1C /* 📦 Check Pods Manifest.lock */,
 				31756EE66990D9A82A674EFC /* [CP] Check Pods Manifest.lock */,
 				D2E5DCEE1DF943820042FFBE /* Sources */,
 				D2E5DCEF1DF943820042FFBE /* Frameworks */,
 				D2E5DCF01DF943820042FFBE /* Resources */,
 				B37F02734FDF21ED16989B29 /* [CP] Embed Pods Frameworks */,
 				A653DE779808E37C284266AA /* [CP] Copy Pods Resources */,
+				B8B0E2FC7C2C09DA015DB9EE /* 📦 Embed Pods Frameworks */,
+				593A4BBB75F1D8516D7B8EEC /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,12 +252,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2E5DD281DF943820042FFBE /* Build configuration list for PBXNativeTarget "HGCashNoteTests" */;
 			buildPhases = (
-				33989E0298E9E4E09CF02ED9 /* [CP] Check Pods Manifest.lock */,
 				D2E5DD0D1DF943820042FFBE /* Sources */,
 				D2E5DD0E1DF943820042FFBE /* Frameworks */,
 				D2E5DD0F1DF943820042FFBE /* Resources */,
-				BF9451B3A988F2C9BD4072ED /* [CP] Embed Pods Frameworks */,
-				7E4FC59D6D21F31096B70DF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,12 +270,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2E5DD2B1DF943820042FFBE /* Build configuration list for PBXNativeTarget "HGCashNoteUITests" */;
 			buildPhases = (
-				EBB79904EAA98ED049778E65 /* [CP] Check Pods Manifest.lock */,
 				D2E5DD181DF943820042FFBE /* Sources */,
 				D2E5DD191DF943820042FFBE /* Frameworks */,
 				D2E5DD1A1DF943820042FFBE /* Resources */,
-				A8AE1FE0B7D2247B6546DA2C /* [CP] Embed Pods Frameworks */,
-				64786AB6B7DEA3C7853247DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -383,49 +373,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		33989E0298E9E4E09CF02ED9 /* [CP] Check Pods Manifest.lock */ = {
+		593A4BBB75F1D8516D7B8EEC /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNote/Pods-HGCashNote-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		64786AB6B7DEA3C7853247DD /* [CP] Copy Pods Resources */ = {
+		9DD4A8F1959E2A3D35161A1C /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNoteUITests/Pods-HGCashNoteUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7E4FC59D6D21F31096B70DF5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNoteTests/Pods-HGCashNoteTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A653DE779808E37C284266AA /* [CP] Copy Pods Resources */ = {
@@ -443,21 +418,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNote/Pods-HGCashNote-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A8AE1FE0B7D2247B6546DA2C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNoteUITests/Pods-HGCashNoteUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B37F02734FDF21ED16989B29 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,34 +433,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNote/Pods-HGCashNote-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BF9451B3A988F2C9BD4072ED /* [CP] Embed Pods Frameworks */ = {
+		B8B0E2FC7C2C09DA015DB9EE /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNoteTests/Pods-HGCashNoteTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EBB79904EAA98ED049778E65 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCashNote/Pods-HGCashNote-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -510,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45383511DFC046000550C16 /* HGForceTouch.m in Sources */,
 				D2E5DD031DF943820042FFBE /* DetailViewController.m in Sources */,
 				D231EBFB1DFA99CA00E594B1 /* HGNotification.m in Sources */,
 				D2E5DD001DF943820042FFBE /* MasterViewController.m in Sources */,
@@ -692,7 +638,6 @@
 		};
 		D2E5DD291DF943820042FFBE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 488C2FA8D23B47FAEC7644AA /* Pods-HGCashNoteTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HGCashNoteTests/Info.plist;
@@ -705,7 +650,6 @@
 		};
 		D2E5DD2A1DF943820042FFBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06987931A983DDEAB6CBF8A8 /* Pods-HGCashNoteTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HGCashNoteTests/Info.plist;
@@ -718,7 +662,6 @@
 		};
 		D2E5DD2C1DF943820042FFBE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34D90B9ED1932740C4D92B5A /* Pods-HGCashNoteUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HGCashNoteUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -730,7 +673,6 @@
 		};
 		D2E5DD2D1DF943820042FFBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D9CD7359667D97E5049EEE0 /* Pods-HGCashNoteUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = HGCashNoteUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
